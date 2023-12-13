@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop now Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar section-->
+    <!--navbar section-->
+    <section>
+      <div class="navbar">
+        <a href="#"><h2>ShopNow</h2></a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Login
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html" class="navbar-hover">Login</a>
+            <a href="signUp.html" class="navbar-hover">Sign Up</a>
+          </div>
+        </div>
+        <a href="home.html" class="navbar-hover">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" class="navbar-hover">
+            Shop
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="children.html" class="navbar-hover">Children</a>
+            <a href=men.html" class="navbar-hover">Men</a>
+            <div class="dropdown2">
+              <button class="dropbtn2" class="navbar-hover">
+                Women<i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown2-content">
+                <a href="dresses.html" class="navbar-hover">Dresses</a>
+                <a href="shirts.html" class="navbar-hover">Shirts</a>
+                <a href="sports.html" class="navbar-hover">Sports Wear</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="blog.html" class="navbar-hover">Blog</a>
+        <a href="about.html" class="navbar-hover">About us</a>
+        <a href="contact.html" class="navbar-hover">Contact Us</a>
+        <a href="cart.html" class="navbar-hover"
+          ><i class="fa-solid fa-cart-shopping" onclick="showCartAlert()"></i
+        ></a>
+      </div>
+    </section>
+    <section id="page-header" class="blog-header">
+      <div>
+        <h2>Read Me</h2>
+        <p >Know more about our store</p>
+      </div>
+      <br />
+      <br />
+    </section>
+    <section id="blog">
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog1.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>Cotton Zip-Up Hoodie</h4>
+          <p class="page-headerParagraph" onmouseover="changeParagraphSize()">
+            Crafted from high-quality fabrics, these hoodies offer coziness
+            while ensuring breathability, making them ideal for year-round wear.
+            With a range of colors, designs, and sizes, you'll discover the
+            perfect match for your personal style. Whether you're looking for a
+            laid-back weekend attire or a trendy layer to elevate your daily
+            ensemble, our zip-up hoodies promise comfort and flair for every
+            occasion.
+          </p>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog2.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>How to Style a Quiff</h4>
+          <p class="page-headerParagraph">
+            Consider a classic leather jacket for a touch of edginess or opt for
+            a well-fitted blazer to exude confidence. Complete the ensemble with
+            sleek sneakers or polished leather shoes for a refined finish. Our
+            selection of clothes is designed to complement your Quiff style,
+            allowing you to express your unique personality while maintaining a
+            sharp and fashionable appearance.
+          </p>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog3.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>Runway-Inspired Trends</h4>
+          <p class="page-headerParagraph">
+            Experience the glamour of the runway with our curated collection of
+            fashion-forward trends straight from the catwalks. Our online store
+            brings you the latest runway-inspired styles that redefine elegance
+            and chic. From bold, oversized silhouettes to intricate patterns and
+            vibrant colors, our collection encapsulates the essence of high
+            fashion. Embrace the artistry of avant-garde designs or opt for
+            timeless sophistication with modern twists.
+          </p>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog4.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>Must-Have Clothes well customized</h4>
+          <p class="page-headerParagraph">
+            Discover the essence of personalized style with our collection of
+            must-have clothes, meticulously crafted for customization. Our
+            online shopping experience empowers you to curate your wardrobe
+            essentials, ensuring each piece reflects your unique taste and
+            preferences. From tailored shirts and bespoke suits to custom-fit
+            jeans and personalized accessories, we offer a seamless platform
+            where you can select fabrics, styles, and details to create clothing
+            that truly embodies your individuality. Embrace the freedom to
+            choose from an array of colors, patterns, and sizes, allowing you to
+            express your personality through every stitch and detail.
+          </p>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog5.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>Cotton Sweaters</h4>
+          <p class="page-headerParagraph">
+            Crafted from premium-quality cotton, these sweaters offer a
+            luxurious softness against the skin while providing excellent
+            breathability. Embrace the versatility of our cotton sweaters,
+            perfect for layering during chilly days or wearing solo for a
+            relaxed yet sophisticated look. Available in an array of hues and
+            styles, our collection ranges from classic crew necks to chic
+            V-necks and trendy oversized fits, catering to various tastes and
+            preferences. Elevate your wardrobe with these effortlessly elegant
+            pieces that seamlessly combine comfort, quality, and style.
+          </p>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog6.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>How We get Our Material</h4>
+          <p class="page-headerParagraph">
+            To get confidence in out clothes fabrication.<br />
+            We try as much as we can we get the proper clothes material that
+            will comforts our customers.
+          </p>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="./images/blog7.jpg" alt="image1" />
+        </div>
+        <div class="blog-details">
+          <h4>Our Professional Models</h4>
+          <p class="page-headerParagraph">
+            In our online shopping store, professional models are the embodiment
+            of style and grace, bringing life to our curated collection of
+            fashion essentials. Selected for their poise, versatility, and
+            ability to showcase clothing with finesse, these models effortlessly
+            translate our brand's vision into stunning visual narratives. With
+            their expertise in posing, walking, and conveying the essence of
+            each garment, these professionals ensure that every piece of
+            clothing exudes its inherent allure. From haute couture to casual
+            wear, our dedicated team of models embodies diverse looks, enabling
+            our customers to envision how each item complements their style and
+            personality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> New Cairo, Street 41, Cairo</p>
+        <p><strong>Phone:</strong> +20 109445127</p>
+        <p><strong>Hours:</strong> 7:00 - 20:00 , Saturday - Thursday</p>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <div class="row">
+          <img src="./images/app.jpg" alt="pay method2" />
+          <img src="./images/play.jpg" alt="pay method3" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="./images/pay.png" alt="pay method" />
+      </div>
+      <div class="copyright">
+        <p>&copy;2023, <span>ShopNow</span>-Shopping Website</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

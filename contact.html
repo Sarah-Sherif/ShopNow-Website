@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop now Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar section-->
+    <section>
+      <div class="navbar">
+        <a href="#"><h2>ShopNow</h2></a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Login
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html" class="navbar-hover">Login</a>
+            <a href="signUp.html" class="navbar-hover">Sign Up</a>
+          </div>
+        </div>
+        <a href="home.html" class="navbar-hover">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" class="navbar-hover">
+            Shop
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="men.html" class="navbar-hover">Children</a>
+            <a href="shop.html" class="navbar-hover">Men</a>
+            <div class="dropdown2">
+              <button class="dropbtn2" class="navbar-hover">
+                Women<i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown2-content">
+                <a href="dresses.html" class="navbar-hover">Dresses</a>
+                <a href="shirts.html" class="navbar-hover">Shirts</a>
+                <a href="sports.html" class="navbar-hover">Sports Wear</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="blog.html" class="navbar-hover">Blog</a>
+        <a href="about.html" class="navbar-hover">About us</a>
+        <a href="contact.html" class="navbar-hover">Contact Us</a>
+        <a href="cart.html" class="navbar-hover" onclick="showCartAlert()"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </section>
+    <section id="page-header" class="about-header">
+      <div>
+        <h2>Contact us 😀</h2>
+        <p>Here you can see how to reach us</p>
+      </div>
+      <br />
+      <br />
+    </section>
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span>Get in touch with us 😀</span>
+        <h2>Visit one of our agency locations or contact us 😀</h2>
+        <h3>Head Office Details</h3>
+        <div>
+          <li>
+            🗺️
+            <p>Rehab Mall2 , New Cairo , Egypt</p>
+          </li>
+          <li>
+            ✉️
+            <p>shopNow@gmail.com</p>
+          </li>
+          <li>
+            ☎️
+            <p>+20 106754125</p>
+          </li>
+          <li>
+            🕑
+            <p>Saturday-Thursday : 7:00 a.m to 12:00 a.m</p>
+          </li>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.13364961922!2d31.48204529999999!3d30.061703299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458187ad64d46b7%3A0x360f0cfcfb6f34bd!2sRehab%20Mall%202!5e0!3m2!1sen!2seg!4v1700932569370!5m2!1sen!2seg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section id="form-details">
+      <form action="./contactSubmitForm.html">
+        <span>Leave us a Message</span>
+        <h2>We love to hear from you🤎</h2>
+        <input type="text" placeholder="Enter Your Name" required />
+        <input type="text" placeholder="Enter Your Email" required />
+        <input type="text" placeholder="Subject" />
+        <input type="text" placeholder="Enter Your Name" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Comments"
+        ></textarea>
+        <button id="contact-Submit">Submit</button>
+      </form>
+    </section>
+    <br />
+    <br />
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> New Cairo, Street 41, Cairo</p>
+        <p><strong>Phone:</strong> +20 109445127</p>
+        <p><strong>Hours:</strong> 7:00 - 20:00 , Saturday - Thursday</p>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <div class="row">
+          <img src="./images/app.jpg" alt="pay method2" />
+          <img src="./images/play.jpg" alt="pay method3" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="./images/pay.png" alt="pay method" />
+      </div>
+      <div class="copyright">
+        <p>&copy;2023, <span>ShopNow</span>-Shopping Website</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

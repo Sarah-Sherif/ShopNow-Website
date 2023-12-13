@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop now Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+ <!--navbar section-->
+ <section>
+  <div class="navbar">
+    <a href="#"><h2>ShopNow</h2></a>
+    <div class="dropdown">
+      <button class="dropbtn">
+        Login
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html" class="navbar-hover">Login</a>
+        <a href="signUp.html" class="navbar-hover">Sign Up</a>
+      </div>
+    </div>
+    <a href="home.html" class="navbar-hover">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" class="navbar-hover">
+        Shop
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="children.html" class="navbar-hover">Children</a>
+        <a href="men.html" class="navbar-hover">Men</a>
+        <div class="dropdown2">
+          <button class="dropbtn2" class="navbar-hover">
+            Women<i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown2-content">
+            <a href="dresses.html" class="navbar-hover">Dresses</a>
+            <a href="shirts.html" class="navbar-hover">Shirts</a>
+            <a href="sports.html" class="navbar-hover">Sports Wear</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="blog.html" class="navbar-hover">Blog</a>
+    <a href="about.html" class="navbar-hover">About us</a>
+    <a href="contact.html" class="navbar-hover">Contact Us</a>
+    <a href="cart.html" class="navbar-hover" onclick="showCartAlert()"
+      ><i class="fa-solid fa-cart-shopping"></i
+    ></a>
+  </div>
+</section>
+
+  <section id="page-header" class="shop-header">
+    <div>
+      <h2>Choose From Our Collection</h2>
+      <p>Dig into our great sales</p>
+    </div>
+    <br />
+    <br />
+  </section>
+</section>
+    <section id="product1" class="section-p1">
+      <div class="pro-container">
+        <div class="pro" onclick="goToChildrenPage()">
+          <img src="./images/baby1.png" alt="pic1" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$74</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby2.png" alt="pic2" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$61</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby3.webp" alt="pic3" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$79</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby4.webp" alt="pic4" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$55</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby6.webp" alt="pic5" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$77</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby7.webp" alt="pic6" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$91</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div class="pro" onclick="goToChildrenPage()">
+          <img src="./images/baby5.webp" alt="pic1" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$120</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div class="pro" onclick="goToChildrenPage()">
+          <img src="./images/baby8.webp" alt="pic2" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$95</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby9.png" alt="pic3" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$91</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby10.webp" alt="pic4" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$200</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby11.webp" alt="pic5" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$100</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro"  onclick="goToChildrenPage()">
+          <img src="./images/baby12.webp" alt="pic6" />
+          <div class="des">
+            <span>Centerpoint</span>
+            <h5>cute little Jumpsuit for your new born👼🏼</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$105</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </section>
+ <br>
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> New Cairo, Street 41, Cairo</p>
+        <p><strong>Phone:</strong> +20 109445127</p>
+        <p><strong>Hours:</strong> 7:00 - 20:00 , Saturday - Thursday</p>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <br>
+     
+      <div class="col install">
+        <h4>Install App</h4>
+        <div class="row">
+          <img src="./images/app.jpg" alt="pay method2" />
+          <img src="./images/play.jpg" alt="pay method3" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="./images/pay.png" alt="pay method" />
+      </div>
+      <div class="copyright">
+        <p>&copy;2023, <span>ShopNow</span>-Shopping Website</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

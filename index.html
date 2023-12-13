@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Login Page</title>
+  </head>
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(./images/blog1.jpg);
+      background-attachment: fixed;
+      background-repeat: no repeat;
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <header>
+      <h2>ShopNow</h2>
+      <nav class="navigation">
+        <button class="btnLogin" onclick="HomePage()">Login</button>
+        <a href="home.html" class="link">Home</a>
+        <a href="dresses.html" class="link active">Shop</a>
+        <a href="blog.html" class="link">Blog</a>
+        <a href="about.html" class="link">About Us</a>
+        <a href="contact.html" class="link">Contact Us</a>
+        <a href="cart.html" class="link" onclick="showCartAlert()"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <span class="icon-close"
+        ><i class="fa fa-close" onclick="dontCloseAlert()"></i
+      ></span>
+      <div class="form">
+        <h2>Login</h2>
+        <form action="home.html">
+          <div class="input-box">
+            <label for="email">Email</label>
+            <span class="icon"><i class="bx bx-envelope"></i></span>
+
+            <input type="email" placeholder="name@email.com" required />
+          </div>
+          <div class="input-box">
+            <label>Password</label>
+            <span class="icon"><i class="bx bx-lock"></i></span>
+            <input type="password" placeholder="password" required />
+          </div>
+          <div class="remember-forget">
+            <label class="label-font"
+              ><input type="checkbox" />Remember me</label
+            >
+            <a href="#">Forget Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>
+              Don't have an account?
+              <a href="#" class="register-link" onclick="signUp()">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

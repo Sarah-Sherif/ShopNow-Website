@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop now Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script>
+      function goToShopPage() {
+        // Redirect to another HTML file
+        window.location.href = "shop.html";
+      }
+    </script> -->
+
+    <!-- <script src="script.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--navbar section-->
+    <section>
+      <div class="navbar">
+        <a href="#"><h2>ShopNow</h2></a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Login
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html" class="navbar-hover">Login</a>
+            <a href="signUp.html" class="navbar-hover">Sign Up</a>
+          </div>
+        </div>
+        <a href="home.html" class="navbar-hover active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" class="navbar-hover">
+            Shop
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="children.html" class="navbar-hover">Children</a>
+            <a href="men.html" class="navbar-hover">Men</a>
+            <div class="dropdown2">
+              <button class="dropbtn2" class="navbar-hover">
+                Women<i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown2-content">
+                <a href="dresses.html" class="navbar-hover">Dresses</a>
+                <a href="shirts.html" class="navbar-hover">Shirts</a>
+                <a href="sports.html" class="navbar-hover">Sports Wear</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="blog.html" class="navbar-hover">Blog</a>
+        <a href="about.html" class="navbar-hover">About us</a>
+        <a href="contact.html" class="navbar-hover">Contact Us</a>
+        <a href="cart.html" class="navbar-hover" onclick="showCartAlert()"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <section id="hero">
+      <div>
+        <h4>Trade-in-offer 💞</h4>
+        <h2>Super Value Deals On all Products</h2>
+        <p>Save more with coupons and discount up to 60%</p>
+      </div>
+      <br />
+    </section>
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="./images/freeShipping.jpg" alt="" />
+        <h6>Free Shipping</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./images/onlineOrder.png" alt="" />
+        <h6>Online Shopping</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./images/saveMoney2.jpg" alt="" />
+        <h6>Save Your Money</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./images/promotions.png" alt="" />
+        <h6>Promotions</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./images/happySale.jpg" alt="" />
+        <h6>Happy Sale 🤩</h6>
+      </div>
+      <div class="fe-box">
+        <img src="./images/support.webp" alt="" />
+        <h6>24/7 Support</h6>
+      </div>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="./images/pic1.webp" alt="pic1" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Hollister</span>
+            <h5>Summer Hollister Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$74</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="./images/pic2.jpg" alt="pic2" onclick="goToMenPage()" />
+          <div class="des">
+            <span>AE</span>
+            <h5>Summer American Eagle Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$61</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/pic3.jpg" alt="pic3" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Aero</span>
+            <h5>Summer Aeropostale Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$79</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/pic4.webp" alt="pic4" onclick="goToMenPage()" />
+          <div class="des">
+            <span>H&M</span>
+            <h5>Summer H&M Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$55</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/pic5.jpg" alt="pic5" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Gap</span>
+            <h5>Summer Gap Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$77</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/f4.jpg" alt="pic5" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Pull and Bear</span>
+            <h5>Summer Pull and Bear Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$145</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/f5.jpg" alt="pic5" onclick="goToMenPage()" />
+          <div class="des">
+            <span>AE</span>
+            <h5>Summer AE Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$100</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/f6.jpg" alt="pic6" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Bersheka</span>
+            <h5>Summer Bersheka Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$91</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="banner" class="section-m1">
+      <h4>Repair Services</h4>
+      <h2>Up to <span>60% off</span> All t-Shirts & Accessories</h2>
+      <button id="explore" class="normal" onclick="goToShopPage()">
+        Explore More
+      </button>
+    </section>
+    <section id="product2" class="section-p1">
+      <h2>New Arrivals</h2>
+      <p>Summer Collection</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img
+            src="./images/flowerDress.jpg"
+            alt="pic1"
+            onclick="goToShopPage()"
+          />
+          <div class="des">
+            <span>Hollister</span>
+            <h5>Summer Hollister Dress</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$120</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="./images/f2.jpg" alt="pic2" onclick="goToMenPage()" />
+          <div class="des">
+            <span>AE</span>
+            <h5>Summer American Eagle Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$95</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/f3.jpg" alt="pic3" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Aero</span>
+            <h5>Summer Aeropostale Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$91</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img
+            src="./images/redDress.jpg"
+            alt="pic4"
+            onclick="goToShopPage()"
+          />
+          <div class="des">
+            <span>H&M</span>
+            <h5>Summer H&M Red Dress</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$145</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/f5.jpg" alt="pic5" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Pull and Bear</span>
+            <h5>Summer Pull and Bear Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$100</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/f6.jpg" alt="pic5" onclick="goToMenPage()" />
+          <div class="des">
+            <span>Bersheka</span>
+            <h5>Summer Bersheka Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$105</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img
+            src="./images/purpleSweater.jpg"
+            alt="pic5"
+            onclick="goToShopPage()"
+          />
+          <div class="des">
+            <span>Bersheka</span>
+            <h5>Bersheka Sweaters</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$105</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/dress9.jpg" alt="pic6" onclick="goToShopPage()" />
+          <div class="des">
+            <span>Bersheka</span>
+            <h5>Black Dress</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>price:$91</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </section>
+    <section id="sm-banner" class="section-p1">
+      <div class="banner-box">
+        <h4>crazy deals</h4>
+        <h2>buy 1 get 1 free</h2>
+        <span>The best classic dress is on sale</span>
+        <button class="white" onclick="goToShopPage()">Learn More</button>
+      </div>
+      <div class="banner-box banner-box2">
+        <h4>Summer/Spring Collection</h4>
+        <h2>buy 1 get 1 free</h2>
+        <span>Upcomping Soon</span>
+        <button class="white" onclick="goToMenPage() ">Collection</button>
+      </div>
+    </section>
+    <section id="banner3">
+      <div class="banner-box">
+        <h2>Seasonal Sale</h2>
+        <h3>Winter Collection 50% off</h3>
+      </div>
+      <div class="banner-box banner-box2">
+        <h2>New Winter Collection</h2>
+        <h3>Winter Collection 2022</h3>
+      </div>
+      <div class="banner-box banner-box3">
+        <h2>T-Shirts</h2>
+        <h3>New Trendy Prints</h3>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> New Cairo, Street 41, Cairo</p>
+        <p><strong>Phone:</strong> +20 109445127</p>
+        <p><strong>Hours:</strong> 7:00 - 20:00 , Saturday - Thursday</p>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <div class="row">
+          <img src="./images/app.jpg" alt="pay method2" />
+          <img src="./images/play.jpg" alt="pay method3" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="./images/pay.png" alt="pay method" />
+      </div>
+      <div class="copyright">
+        <p>&copy;2023, <span>ShopNow</span>-Shopping Website</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
